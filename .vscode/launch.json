@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "configurations": [
+        {
+            "name": "Debug Auth Server",
+            "request": "launch",
+            "type": "node",
+            "program": "src/server.ts",
+            "runtimeExecutable": "${workspaceFolder}\\node_modules\\.bin\\ts-node",
+            "sourceMaps": true
+        },
+        {
+            "name": "Debug Auth Server (Nodemon)",
+            "request": "launch",
+            "type": "node",
+            "program": "src/server.ts",
+            "runtimeExecutable": "${workspaceFolder}\\node_modules\\.bin\\nodemon",
+            "sourceMaps": true
+        },
+    ]
+}
